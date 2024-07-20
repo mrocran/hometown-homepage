@@ -1,0 +1,303 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #353434;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header-wrapper {
+    background-color: blueviolet;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: center;  
+}
+
+.main-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+    a {
+        text-decoration: none;
+        color: #efeded;
+    }
+
+    a:hover {
+        color: #353434;
+    }
+}
+
+#home {
+    background-image: url(images/cape.jpg);
+    background-size: cover;
+    height: 80vh;
+    border-radius: 0 0 30px 30px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+
+    h1,h3 {
+        margin: 0 0 10px 0;
+        background-color: mediumseagreen;
+        padding: 8px 16px;
+        border-radius: 10px;
+        color: #efeded;
+    }
+
+}
+
+.hero-title {
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    text-align: justify;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3, p {
+    margin: 20px 0 10px 0;
+}
+
+
+/* ATTRACTIONS SECTION */
+
+#tourism {
+    background-color: mediumseagreen;
+    padding: 30px;
+    border-radius: 30px 30px 0 0;
+    margin-top: 40px;
+
+    p {
+        color: #efeded;
+    }
+}
+
+.popular-places {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-site {
+    padding: 20px;
+    
+    p {
+       text-align: left;
+    }
+}
+
+.tour-site img {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+
+/* NEWS AND EVENTS SECTION */
+
+#updates {
+    padding: 30px;
+}
+
+.news-wrapper, .events-wrapper {
+    background-color: #f5f3f3;
+    margin-bottom: 5px;
+    padding: 20px;
+
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+
+.news-wrapper {
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+
+    img {
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+        position: center;
+    }
+}
+
+.card-text {
+    text-align: justify;
+    padding-right: 20px;
+    h4 {
+        margin: 0;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 8px 14px;
+        border: none;
+        background-color: mediumseagreen;
+        color: #efeded;
+    }
+}
+
+.card-text button:hover {
+    background-color: blueviolet;
+}
+
+
+/* CONTACT SECTION */
+
+#contact {
+    background-color: mediumseagreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border-radius: 0 0 30px 30px;
+
+    p {
+        color: #efeded;
+    }
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.contact-info {
+    background-image: url(images/Fetu-Afahye-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #f5f3f3;
+
+
+}
+
+form {
+    width: 45%;
+    text-align: center;
+
+        input{
+        display: block;
+        margin: 10px auto;
+        width: 300px;
+        line-height: 24px;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #efeded;
+    }
+
+        textarea {
+        width: 300px;
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        background-color: #efeded;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    button {
+        width: 336px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #efeded;
+        background-color: blueviolet;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+}
+
+form button:hover {
+    background-color: #efeded;
+    color: blueviolet;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: blueviolet;
+    padding: 5px 20px;
+    color: #efeded;
+}
+
+.footer-ctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+
+
+    h2, p {
+        margin: 0;
+    }
+}
+
+.logo {
+    color: rgb(241, 214, 7);
+    font-size: 24px;
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.footer-items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: #efeded;
+    }
+
+    a:hover {
+        color: mediumseagreen;
+    }
+}
